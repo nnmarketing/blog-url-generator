@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>blog url generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+
+        <h1 class="title has-text-primary">
+          blog url generator
+        </h1>
+        <p class="subtitle">
+          <i>copy+paste title below, and click convert!</i>
+        </p>
+
+      <div class="columns">
+        <div class="column">
+          <textarea rows="2" cols="80" id="input"></textarea>
+          <br>
+          <a class="button is-success" onclick="testFunc()">convert to url</a>
+        </div>
+        <div class="column">
+          <div class="has-text-success" style="font-weight: bold" id="output"></div>
+          <div id="message"></div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <script src="./SaniBlog.js"></script>
+</html>
